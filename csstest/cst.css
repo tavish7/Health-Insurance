@@ -1,0 +1,60 @@
+body
+{
+    margin: 1;
+    padding: 0;
+    font-family: Tienne;
+    background-color: #ef5350c4;
+    color: #263238 ;
+    font-size: 20px;
+
+}
+
+input {
+    background-color: rgba(238, 238, 238, 0.795);;
+    border: 1px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 2px 0;
+    width: 100%;
+}
+
+h2{
+    font-weight: bold;
+    
+    color: rgb(10, 9, 9) ;
+    margin: 0;
+    padding-left: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form {
+    
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+
+}
+
+table{
+    background-image: url(undraw_organize_resume_utk5.png);
+    border-radius: 20px;
+    background-blend-mode: lighten;
+    
+    background-size: contain;
+}
+
+.box input[type="submit"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

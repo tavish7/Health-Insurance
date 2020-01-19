@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personal Details</title>
+        <link rel="stylesheet" href="cst.css">
+    </head>
+    <body>
+        <div class="box">
+            <h2>Personal Details</h2>
+            <form action="//submit.form" id="Health Insurance Form" method="post" onsubmit="return ValidateForm(this);">
+                <script type="text/javascript">
+                function ValidateForm(frm) {
+                if (frm.First_Name.value == "") { alert('First name is required.'); frm.First_Name.focus(); return false; }
+                if (frm.Last_Name.value == "") { alert('Last name is required.'); frm.Last_Name.focus(); return false; }
+                if (frm.Email_Address.value == "") { alert('Email address is required.'); frm.Email_Address.focus(); return false; }
+                if (frm.Email_Address.value.indexOf("@") < 1 || frm.Email_Address.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.Email_Address.focus(); return false; }
+                if (frm.Position.value == "") { alert('Position is required.'); frm.Position.focus(); return false; }
+                if (frm.Phone.value == "") { alert('Phone is required.'); frm.Phone.focus(); return false; }
+                return true; }
+                </script>
+                <table border="0" cellpadding="5" cellspacing="10">
+                <tr> <td style="width: 50%">
+                
+                
+                    <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+                    <script>
+                      var myLandbot = new LandbotLivechat({
+                        index: 'https://landbot.io/u/H-345018-R86ZG7IWRU95JAKE/index.html',
+                      });
+                    </script>
+                
+                
+                <label for="First_Name"><b>First name *</b></label><br />
+                <input name="First_Name" type="text" maxlength="100" style="width: 260px" />
+                </td>  <td style="width: 50%">
+                
+                <label for="Last_Name"><b>Last name *</b></label><br />
+                <input name="Last_Name" type="text" maxlength="50" style="width: 260px" />
+                </td> </tr> <tr> <td style="width: 50%">
+                
+                <label for="DOB"><b>DOB</b></label><br />
+                <input name="DOB" type="text" maxlength="50" style="width: 260px" />
+                </td>  <td colspan="2">
+                
+                <label for="Place of Birth"><b>Place of Birth</b></label><br />
+                <input name="Place of Birth" style="width: 250px"></textarea>
+                </td> </tr> <tr> <td colspan="2" >
+                
+                <label for="Age"><b>Age *</b></label><br />
+                <input name="Age" type="text" maxlength="25" style="width: 53px" />
+                </td> </tr> <tr>  <td colspan="2">
+                
+                <label for="Gender"><b>Gender(M/F) *</b></label><br />
+                <input name="Gender" type="text" maxlength="100" style="width: 55px" />
+                </td> </tr> <tr> <td>
+                
+                <label for="Caste"><b>Caste *</b></label><br />
+                <input name="Caste" type="text" maxlength="50" style="width: 260px" />
+                </td>  <td>
+                
+                <label for="Religious Minority"><b>Religious Minority*</b></label><br />
+                <input name="Religious Minority" type="checkbox"  checked="checked" /> Yes
+                <input name="Religious Minority" type="checkbox" /> No
+                </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                <label for="Personal Phone"><b>Personal Phone *</b></label><br />
+                <input name="Phone" type="text" maxlength="50" style="width: 260px" />
+                </td> </tr> <tr> <td>
+                
+                <label for="Father/Husband Name"><b>Father/Husband Name*</b></label><br />
+                <input name="Father/Husband Name" style="width: 250px"></textarea>
+                </td>  <td colspan="2" >
+                
+                <label for="Phone"><b>Phone *</b></label><br />
+                <input name="Phone" type="text" maxlength="50" style="width: 260px" />
+                </td> </tr> <tr> <td>
+                
+                  <label for="Blood Group"><b>Blood Group</b></label><br />
+                  <input name="Blood Group" type="text" maxlength="50" style="width: 260px" />
+                  </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                <label for="Aadhar"><b>Aadhar card *</b></label><br />
+                <input name="Aadhar" type="text" maxlength="50" style="width: 260px" />
+                </td> </tr> <tr> <td style="width: 50%">
+                
+                <label for="Pan Card"><b>Pan card</b></label><br />
+                <input name="Pan Card" type="text" maxlength="50" style="width: 260px" />
+                </td> </tr> <tr> <td colspan="2">
+                
+                <label for="Marital Status"><b>Marital Status</b></label><br />
+                <input name="Marital Status" type="checkbox"  checked="checked" /> Single
+                <input name="Marital Status" type="checkbox" /> Married
+                <input name="Marital Status" type="checkbox" /> Divorced </td> </tr> <tr> <td colspan="2">
+                
+                <label for="Education Qualification"><b>Education Qualification</b></label><br />
+                <input name="Education Qualification" type="checkbox"  checked="checked" /> No formal Education
+                <input name="Education Qualification" type="checkbox"   /> High School
+                <input name="Education Qualification" type="checkbox"   /> Graduate
+                <input name="Education Qualification" type="checkbox"   /> Post-Graduate
+                <input name="Education Qualification" type="checkbox"   /> Doctrate
+                </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                <label for="Income"><b>Income(select one)</b></label><br />
+                <input name="Income" type="checkbox" value="5lakh." checked="checked" /> less than 5lakh
+                <input name="Income" type="checkbox" value="10Lakh" /> 10Lakh-20Lakh
+                <input name="Income" type="checkbox" value="10Lakh" /> 35Lakh and above
+                </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                <label for="Occupation"><b>Occupation</b></label><br />
+                <input name="Occupation" type="text" maxlength="50" style="width: 250px" />
+                </td> </tr> <tr> <td colspan="1">
+                
+                
+                
+                <label for="Height"><b>Height</b></label><br /> <input name="Height" type="text" maxlength="50" style="width: 260px" /> </td> <td>
+                <label for="Weight"><b>Weight</b></label><br /><input name="Weight" type="text" maxlength="50" style="width: 260px" /> </td> <td>
+                
+                <label for="Vision"><b>Vision *</b></label><br /><input name="Vision" type="text" maxlength="50" style="width: 260px" />
+                </td></tr> <tr> <td colspan="2">
+                
+                
+                  <h2> Physical Health </h2>
+                  <label for="Physical Health"><b>Please Check all those that apply </b></label><br />
+                  <input name="Vision Imapairment" type="checkbox"  checked="checked" /> Vision Impairment
+                  <input name="Hearing Imapairment" type="checkbox"   /> Hearing Impairment
+                  <input name="Speec Imapairment" type="checkbox"   /> Speech Impairment
+                  <input name="Dyslexia" type="checkbox"   /> Dyslexia
+                  <input name="None" type="checkbox"/> None
+                  </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                <h2> Family History </h2>
+                <label for="Family History"><b>Please Check all those that apply </b></label><br />
+                <input name="Diabetes" type="checkbox"  checked="checked" /> Diabetes
+                <input name="Cancer" type="checkbox"   /> Cancer
+                <input name="Chronic Eye Disease" type="checkbox"   /> Chronic Eye Disease
+                <input name="High Blood Pressure" type="checkbox"   /> High Blood Pressure
+                <input name="None" type="checkbox"/> None
+                </td> </tr> <tr> <td colspan="2">
+                
+                
+                
+                
+                <div style="float: right"> <a href="" id="lnk100" title="form to email">Recieve copy via email</a></div>
+                <script src="" type="text/javascript"></script>
+                <input name="skip_submit" type="submit" value="Submit Form" />
+                </td> </tr>
+                </table>
+
+            </form>
+        </div>
+    </body>
+</html>
