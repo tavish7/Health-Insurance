@@ -1,0 +1,145 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+  }
+  
+ 
+
+
+  .header {
+    background-color: #2a7ead;
+    padding: 20px 20px;
+    overflow: hidden;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  .fw-title {
+      color:#23e0a1;
+      font-family: 'Raleway', sans-serif;
+
+
+      font-size:30px;
+      padding-left: 40px;
+      font-weight:bold;
+      text-decoration:underline;
+  }
+  
+  .grid-container {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+  
+  .grid-container-body {
+  display: grid;
+  grid-row-gap: 25px;
+  grid-template-rows: auto;
+  }
+  
+
+  #services
+  {
+      padding: 80px 0;
+  
+  }
+  .service-img
+{
+    width: 300px;
+}
+
+.img_fluid2
+{
+  padding-left: 30%;
+
+}
+
+.img_fluid
+{
+  padding-left: 30%;
+  padding-top: -20%;
+}
+
+  .grid-item {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    color: #005876;
+    font-family:Comic Sans MS;
+  
+  }
+  .grid-item-body {
+    padding-left: 40px;
+    font-size: 20px;
+    text-align: left;
+    color: #005876;
+    font-family:Comic Sans MS;
+  
+  }
+  .grid-item img {
+    width:70%;
+  
+  }
+  
+  .container {
+    padding-left: 40px;
+    font-size: 20px;
+  }
+  
+  .alert {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 20px 4px 20px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-shadow: none;
+    position: relative;
+    background-color: #272e3b;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #000;
+    box-shadow: 0 0 0 1px #363d49 inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+  }
+  .alert-error {
+    color: #f00;
+    background-color: #360e10;
+    box-shadow: 0 0 0 1px #551e21 inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+  }
+  .alert:empty{
+      display: none;
+  }
+  .alert-success {
+    color: #21ec0c;
+    background-color: #15360e;
+    box-shadow: 0 0 0 1px #2a551e inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+  }
