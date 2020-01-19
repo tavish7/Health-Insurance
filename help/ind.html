@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bajaj</title>
+     <link rel="stylesheet" href="sty.css">
+
+    <link rel="shortcut icon" type="image/png" href="{%  static 'favicon.ico' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+    <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+    <script>
+      var myLandbot = new LandbotLivechat({
+        index: 'https://landbot.io/u/H-345271-F49NMB0Y3EGCHAII/index.html',
+      });
+    </script>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Bajaj</a>
+        </div>
+
+        <!-- Items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="nav navbar-nav">
+                <li class="{% block albums_active %}{% endblock %}"><a href="https://www.bajajfinserv.in/health-insurance"><span class="glyphicon glyphicon-Home" aria-hidden="true"></span>&nbsp; Home </a></li>
+                <li class="{% block albums_active %}{% endblock %}"><a href="{% url 'music:index' %}"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; About Us</a></li>
+                <li class="{% block albums_active %}{% endblock %}"><a href="{% url 'music:index' %}"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>&nbsp; Login</a></li>
+                <li class="{% block songs_active %}{% endblock %}"><a href="{% url 'music:songs' 'all' %}"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;Help</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+
+<section id="banner">
+    <div class="container">
+        
+            
+                <img src="ser.png" height="650" width="1300" class="img-fluid" >   
+            
+        
+    </div>
+</section>
+
+
+<section id="services">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6 services">
+        <img src="call.png" class="service-img">
+        <h2><strong>Call Us</strong></h2>
+        <h3>For all queries call 08698010101
+        </h3>
+        <p>Call to speak to us in any of the following languages: English, Hindi, Bengali, Marathi, Oriya, Gujarati, Tamil, Telugu, Kannada, or Malayalam.
+
+            You can reach us on the following numbers:
+            
+            If you are calling from a non-registered mobile number, please keep your 7-digit customer ID or EMI card number handy for verification.</p>
+    </div>
+    <div class="col-md-6 services">
+        <img src="mail.png" class="service-img">
+        <h2><strong>Email Us</strong></h2>
+        <h3>xyz@bajajfinserv.in</h3>
+        <p>
+            We will respond to you in 2 working days. Please check the spam folder, in case of non-receipt of e-mail.
+        </p>
+    </div>
+    
+    </div>
+    </div>
+    
+    </section>
+
+
+    <section id="services2">
+        <div class="center">
+            <div class="row">
+                <div class="col-md-4 services">
+           
+                <img src="reach.png" class="service-img">
+                <h2><strong>Reach Us</strong></h2>
+                
+           
+        </div>
+        <div class="col-md-4 services">
+           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124495.58099055385!2d79.9810285771447!3d12.811782148609137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f72673082511%3A0x8f0a61b1a096b6cf!2sBajaj%20Finserv!5e0!3m2!1sen!2sin!4v1579442104218!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
+            
+       
+    </div>
+        </div>
+        
+       
+        </div>
+        
+        
+        
+        </section>
+    
+
+    </body>
+
+</html>
