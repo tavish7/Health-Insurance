@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bajaj</title>
+     <link rel="stylesheet" href="base.css">
+
+    <link rel="shortcut icon" type="image/png" href="{%  static 'favicon.ico' %}"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+    <script src="https://static.landbot.io/landbot-widget/landbot-widget-1.0.0.js"></script>
+    <script>
+      var myLandbot = new LandbotLivechat({
+        index: 'https://landbot.io/u/H-345271-F49NMB0Y3EGCHAII/index.html',
+      });
+    </script>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <!-- Header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Bajaj</a>
+        </div>
+
+        <!-- Items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="nav navbar-nav">
+                <li class="{% block albums_active %}{% endblock %}"><a href="https://www.bajajfinserv.in/health-insurance"><span class="glyphicon glyphicon-Home" aria-hidden="true"></span>&nbsp; Home </a></li>
+                <li class="{% block albums_active %}{% endblock %}"><a href="{% url 'music:index' %}"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>&nbsp; About Us</a></li>
+                <li class="{% block albums_active %}{% endblock %}"><a href="{% url 'music:index' %}"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>&nbsp; Login</a></li>
+                <li class="{% block songs_active %}{% endblock %}"><a href="{% url 'music:songs' 'all' %}"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;Help</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="promo-title">BEST HEALTH INSURANCE COMPANY</P>
+                    <p style="font-family: 'Quicksand', sans-serif">Bajaj Finserv Limited, a part of Bajaj Holdings & Investments Limited, is an Indian financial services company focused on lending, asset management, wealth management and insurance.</pfont-family: 'Quicksand', sans-serif;>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="doc.png" width="290" height="290" class="img-fluid" >   
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="services">
+<div class="container">
+<div class="row">
+<div class="col-md-4 services">
+    <img src="about.png" class="service-img">
+    <h4><strong>About Health Insurance</strong></h4>
+    <p>
+        A health insurance policy is a type of insurance that offers coverage for the medical and 
+        surgical expenses incurred by the policyholder when he/she is hospitalised during the policy period. 
+        Health insurers, today, also provide coverage for day care hospitalisation, pre-hospitalisation, and post-hospitalisation.
+    </p>
+</div>
+<div class="col-md-4 services">
+    <img src="imp.png" class="service-img">
+    <h4><strong>Importance of Health Insurance</strong></h4>
+    <p>
+        Having health insurance is important for several reasons. Uninsured people receive less medical care and less timely care, they have worse health outcomes, and lack of insurance is a fiscal burden for them and their families. Moreover, the benefits of expanding coverage outweigh the costs for added services.
+    </p>
+</div>
+<div class="col-md-4 services">
+    <img src="comp.png" class="service-img">
+    <h4><strong>About Company</strong></h4>
+    <p>
+        Bajaj Finserv Limited, a part of Bajaj Holdings & Investments Limited, is an Indian financial services company focused on lending, asset management, wealth management and insurance.
+        The company employs over 20154 employees at 1409 locations, and is engaged in consumer finance businesses, life insurance, and general insurance. Apart from financial services, Bajaj Finserv is also active in wind–energy generation with an installed capacity of 65.2 MW.
+        Bajaj Finserv was ranked among The Economic Times 500 as #119 in 2014.
+    </p>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+<div class="card">
+
+<div class="image">
+   <img src="https://www.dhflinsurance.com/media/images/What-is-critical-illness-insurance.original.jpg">
+</div>
+<div class="title">
+ <h1>
+General Health Insurance</h1>
+</div>
+<div class="des">
+ <p>
+</p>
+<button><a href="https://www.bajajfinserv.in/individual-health-insurance">Read More...</a></button>
+</div>
+</div>
+
+
+<!--cards -->
+<div class="card">
+
+<div class="image">
+   <img src="https://cms-img.coverfox.com/critical%20illness%20health%20insurance.jpg">
+</div>
+<div class="title">
+ <h1>
+Critical Health Insurance</h1>
+</div>
+<div class="des">
+ <p>
+</p>
+<button><a href="https://www.bajajfinserv.in/critical-illness-health-insurance">Read More...</a></button>
+</div>
+</div>
+<!--cards -->
+<!--cards -->
+<div class="card">
+  <div class="image">
+  <img src="https://biswasravindra.files.wordpress.com/2015/02/senior-citizen-health-insurance.jpg">
+  </div>
+  <div class="title">
+   <h1>
+  Senior Health Insurance</h1>
+  </div>
+  <div class="des">
+   <p>
+  </p>
+  <button><a href="https://www.bajajfinserv.in/senior-citizens-health-insurance"> Read More...</a></button>
+  </div>
+  </div>
+
+<!--cards -->
+
+</body>
+</html>

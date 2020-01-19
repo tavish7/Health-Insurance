@@ -1,0 +1,166 @@
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+ 
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 25%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 3%;
+     
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+ #banner
+{
+    background-image: linear-gradient(to right, #ffffff,#ffffff);
+    color: rgb(3, 3, 3);
+    padding-bottom: 30px;
+    
+
+    
+    
+}
+
+
+.img-fluid{
+    padding-top: 40px;
+    background-blend-mode: lighten;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+
+
+
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+
+ 
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(20, 173, 233);
+    
+    cursor: pointer;
+    border-radius: 25px;
+  
+  padding:10px;
+}
+button:hover{
+  background-color: rgb(250, 246, 1);
+  color: rgb(255, 255, 255);
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#text-center
+{
+    padding: 80px 0;
+}
+
+#services
+{
+    padding: 80px 0;
+
+}
+
+.service-img
+{
+    width: 300px;
+}
+
+h4{
+    padding-left: 50px;
+    font-family: 'Gelasio', serif;
+    font-weight: bolder;
+}
+
+
+</style>
